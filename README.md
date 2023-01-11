@@ -74,6 +74,28 @@ $ docker-prod:start
 $ docker-prod:stop
 ```
 
+## To enable App Logs
+
+```bash
+# set ENABLE_APPS_LOGS in src/config/logs.config.ts to true
+$ ENABLE_APPS_LOGS: true
+```
+## To enable DB Logs
+
+```bash
+# set ENABLE_DB_LOGS in src/config/logs.config.ts to true
+$ ENABLE_DB_LOGS: true
+```
+
+## To setup a connection with a DB 
+
+```bash
+# connect to a DB
+$ npm run connect-db
+```
+
+
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
